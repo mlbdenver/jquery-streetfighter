@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Comfortaa);
+
 /** {
   outline: red 1px solid;
 }*/
@@ -12,17 +14,18 @@ body {
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
+  display: block;
 }
 
 .ryu {
   float: left;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   width: 659px;
   height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool{
   display: none;
 } 
 
@@ -37,7 +40,10 @@ body {
 .ryu-throwing {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool{
   background-repeat: no-repeat;
 }
 .hadouken {
@@ -50,3 +56,12 @@ body {
   left: -150px;
   float: left;
 }
+.instruct {
+  float:right;
+  padding:10px;
+  color: red;
+  font-family: Comfortaa, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: -110px;
+  }
