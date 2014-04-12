@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Comfortaa);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 /** {
   outline: red 1px solid;
@@ -9,6 +9,9 @@ body {
 }
 
 .main {
+  background-image: url('../images/creepy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: white;
   margin-top: 110px;
   padding-left: 100px;
@@ -57,10 +60,11 @@ body {
   float: left;
 }
 .instruct {
-  float:right;
+  text-align: center;
   padding:10px;
-  color: red;
-  font-family: Comfortaa, Arial, sans-serif;
+  color: #B6AC86;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-style: italic;
   font-size: 24px;
   line-height: 30px;
   margin-bottom: -110px;
